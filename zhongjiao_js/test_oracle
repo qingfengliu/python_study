@@ -1,0 +1,12 @@
+import os
+import pandas as pd
+``
+df = pd.read_sql('''SELECT * FROM
+(
+select * from ZSXM_MXB aaa 
+left JOIN
+	(select xmmc,gj from XXXX.dm_zsxm_xmhzb) bbb
+on aaa.xmmc=bbb.xmmc
+)''', engine)
+print(df)
+df.to_sql('zhongdianjiankong', engine_myql, index=0, if_exists='append')

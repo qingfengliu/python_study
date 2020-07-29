@@ -1,0 +1,5 @@
+nodes:
+ - name: JobA
+   type: command
+   config:
+     command: /usr/local/bin/python3 zhihui/yuedu.py

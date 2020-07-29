@@ -1,0 +1,3 @@
+type=command
+dependencies=nike_tm_trans
+command=/home/qfliu/python/bin/python3 check_jd_tmail_spider.py

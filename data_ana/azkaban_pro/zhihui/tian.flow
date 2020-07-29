@@ -1,0 +1,5 @@
+nodes:
+ - name: JobB
+   type: command
+   config:
+     command: /usr/local/bin/python3 zhihui/tian.py

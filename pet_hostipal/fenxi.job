@@ -1,0 +1,3 @@
+type=command
+command=/home/qfliu/python/bin/python3 tuangou_fenxi.py -td company_up -fd company_up
+dependencies=wenzi_info

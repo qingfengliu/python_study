@@ -1,0 +1,4 @@
+type=command
+dependencies=check_jd_tmail_spider
+command=/home/qfliu/python/bin/python3 jd_vs_tmail_nike.py
+

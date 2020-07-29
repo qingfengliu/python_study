@@ -1,0 +1,3 @@
+type=command
+dependencies=check_jd_compare
+command=/home/qfliu/python/bin/python3 jd_compare.py

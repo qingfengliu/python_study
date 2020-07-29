@@ -1,0 +1,2 @@
+type=command
+command=/home/qfliu/python/bin/python3 meituan_comments_script.py
